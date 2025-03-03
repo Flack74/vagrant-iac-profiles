@@ -5,7 +5,7 @@ A collection of Vagrant Infrastructure as Code (IaC) profiles for setting up var
 ## 📂 Available Profiles  
 
 - **mini_finance** - Deploys a finance-related website on a CentOS-based Vagrant box with Apache.  
-- **(More profiles like `wordpress` coming soon...)**  
+- **wordpress** - Deploys a WordPress site on an Ubuntu-based Vagrant box with Apache, MySQL, and PHP.  
 
 ## 🚀 Getting Started  
 
@@ -19,7 +19,7 @@ cd vagrant-iac-profiles
 ### 2️⃣ Navigate to the Desired Profile  
 
 ```bash
-cd mini_finance
+cd wordpress  # Or cd mini_finance
 ```
 
 ### 3️⃣ Start the Vagrant Environment  
@@ -33,7 +33,8 @@ vagrant up
 Once provisioning is complete, open your browser and visit:  
 
 ```
-http://192.168.56.28
+http://192.168.56.28  # mini_finance
+http://192.168.56.30  # wordpress
 ```
 
 ## 📌 Requirements  
